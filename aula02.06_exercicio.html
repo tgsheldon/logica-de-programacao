@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Lógica de Programação Javascript</title>
+		<meta charset="utf-8">
+	</head>
+	<body>
+		<h1>Lógica de Programação com Javascript</h1>
+	</body>
+	<script>
+		var n1 = prompt('Digite um número');
+		n1 = parseFloat(n1);
+
+		var n2 = prompt('Digite ourto número');
+		n2 = parseFloat(n2);
+
+		var media = (n1 + n2) / 2;
+
+		if(n1 === 0 || n2 === 0 || media <= 5){
+			alert('Desculpe, mas não foi dessa vez =(');//bloco verdade
+		} else {
+			alert('Parabéns! você foi aprovado =)');//bloco mentira
+		}
+	</script>
+</html>
